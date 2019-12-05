@@ -1,0 +1,22 @@
+{
+    "name": "alikdex/projects",
+    "description": "Projects bundle. Symfony",
+    "type": "symfony-bundle",
+    "keywords": ["symfony","projects"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "The Ant",
+            "email": "alikdex@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "yiisoft/yii2": "~2.0.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "TA\\ProjectBundle\\": "./src"
+        }
+    }
+}
